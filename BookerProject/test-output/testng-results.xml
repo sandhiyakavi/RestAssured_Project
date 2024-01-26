@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-26T19:30:26 JST" name="Rest-Assured TestNG Tests" finished-at="2024-01-26T19:30:43 JST" duration-ms="17549">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-26T19:30:26 JST" name="Bookingmanagement" finished-at="2024-01-26T19:30:43 JST" duration-ms="17549">
+      <class name="com.bookerapi.mockfile.BookingMgmentStub">
+        <test-method signature="createBooking()[pri:0, instance:com.bookerapi.mockfile.BookingMgmentStub@d771cc9]" started-at="2024-01-26T19:30:26 JST" name="createBooking" finished-at="2024-01-26T19:30:27 JST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="getBookingById()[pri:0, instance:com.bookerapi.mockfile.BookingMgmentStub@d771cc9]" started-at="2024-01-26T19:30:27 JST" name="getBookingById" finished-at="2024-01-26T19:30:27 JST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingById -->
+        <test-method signature="getBookingIDs()[pri:0, instance:com.bookerapi.mockfile.BookingMgmentStub@d771cc9]" started-at="2024-01-26T19:30:27 JST" name="getBookingIDs" finished-at="2024-01-26T19:30:27 JST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIDs -->
+      </class> <!-- com.bookerapi.mockfile.BookingMgmentStub -->
+      <class name="com.bookerapi.mock.testcases.BookingManagement">
+        <test-method signature="createBooking()[pri:0, instance:com.bookerapi.mock.testcases.BookingManagement@c7ba306]" started-at="2024-01-26T19:30:27 JST" name="createBooking" finished-at="2024-01-26T19:30:28 JST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="getBookingByID()[pri:0, instance:com.bookerapi.mock.testcases.BookingManagement@c7ba306]" started-at="2024-01-26T19:30:28 JST" name="getBookingByID" finished-at="2024-01-26T19:30:28 JST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingByID -->
+        <test-method signature="getBookingIDs()[pri:0, instance:com.bookerapi.mock.testcases.BookingManagement@c7ba306]" started-at="2024-01-26T19:30:28 JST" name="getBookingIDs" finished-at="2024-01-26T19:30:28 JST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIDs -->
+      </class> <!-- com.bookerapi.mock.testcases.BookingManagement -->
+      <class name="com.bookerapi.runner.RunTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:28 JST" name="setUpClass" finished-at="2024-01-26T19:30:28 JST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a6204e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:28 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:30 JST" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["HealthCheck for BookingAPI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:30 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:32 JST" duration-ms="1833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:32 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:33 JST" duration-ms="1116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get booking with BookingId"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:33 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:34 JST" duration-ms="1129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Booking with Multiple Files"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:34 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:35 JST" duration-ms="1106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Booking with Multiple Files"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:35 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:36 JST" duration-ms="1130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update Booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:36 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:30:37 JST" duration-ms="1227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get All BookingIds with Query params"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage of Restful BookerAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookerapi.runner.RunTest@31ff43be]" started-at="2024-01-26T19:30:37 JST" name="tearDownClass" finished-at="2024-01-26T19:30:40 JST" duration-ms="2655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.bookerapi.runner.RunTest -->
+      <class name="com.bookerapi.services.BookingNegativeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@5b6ec132]" started-at="2024-01-26T19:30:40 JST" name="setup" finished-at="2024-01-26T19:30:40 JST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getBookingWithInvalidID()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@5b6ec132]" started-at="2024-01-26T19:30:40 JST" name="getBookingWithInvalidID" finished-at="2024-01-26T19:30:41 JST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingWithInvalidID -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@5b6ec132]" started-at="2024-01-26T19:30:41 JST" name="setup" finished-at="2024-01-26T19:30:41 JST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateBookingWithIncorrectBody()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@5b6ec132]" started-at="2024-01-26T19:30:41 JST" name="updateBookingWithIncorrectBody" finished-at="2024-01-26T19:30:42 JST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingWithIncorrectBody -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@5b6ec132]" started-at="2024-01-26T19:30:42 JST" name="setup" finished-at="2024-01-26T19:30:42 JST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateBookingWithInvalidID()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@5b6ec132]" started-at="2024-01-26T19:30:42 JST" name="updateBookingWithInvalidID" finished-at="2024-01-26T19:30:43 JST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingWithInvalidID -->
+      </class> <!-- com.bookerapi.services.BookingNegativeTest -->
+    </test> <!-- Bookingmanagement -->
+  </suite> <!-- Rest-Assured TestNG Tests -->
+</testng-results>

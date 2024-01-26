@@ -1,0 +1,10 @@
+com\bookerapi\hooks\Setup.class
+com\bookerapi\configuration\ConfigurationManager.class
+com\bookerapi\steps\Common.class
+com\bookerapi\mock\testcases\BookingManagement.class
+com\bookerapi\steps\BookingMgment.class
+com\bookerapi\services\BookingNegativeTest.class
+com\bookerapi\services\BaseRequest.class
+com\bookerapi\configuration\Configuration.class
+com\bookerapi\runner\RunTest.class
+com\bookerapi\mockfile\BookingMgmentStub.class

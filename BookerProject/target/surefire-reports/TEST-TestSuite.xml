@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.363" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.9.6/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.6"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sandh"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="sandh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandh\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="D:\TestLeaf_API\BookerAPIProject\BookerProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\TestLeaf_API\BookerAPIProject\BookerProject"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;D:\driverbin;&quot;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\sandh\AppData\Local\Android\Sdk\platform-tools;C:\Users\sandh\AppData\Local\Android\Sdk\emulator;C:\Users\sandh\AppData\Local\Android\Sdk\tools;C:\Users\sandh\AppData\Local\Android\Sdk\tools\bin&quot;;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\sandh\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sandh\AppData\Local\Programs\Python\Python310\;C:\Users\sandh\AppData\Local\Microsoft\WindowsApps;C:\Users\sandh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sandh\AppData\Local\GitHubDesktop\bin;C:\Users\sandh\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.9.6\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="2.644"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.918"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.078"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.03"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.126"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.342"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.116"/>
+  <testcase name="getBookingWithInvalidID" classname="com.bookerapi.services.BookingNegativeTest" time="1.149"/>
+  <testcase name="updateBookingWithIncorrectBody" classname="com.bookerapi.services.BookingNegativeTest" time="1.106"/>
+  <testcase name="updateBookingWithInvalidID" classname="com.bookerapi.services.BookingNegativeTest" time="1.03"/>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rest-Assured TestNG Tests">
+  <test thread-count="5" name="Bookingmanagement">
+  	<classes>
+  		<class name="com.bookerapi.mockfile.BookingMgmentStub"></class>  	
+  		<class name="com.bookerapi.mock.testcases.BookingManagement"></class>
+  		<class name="com.bookerapi.runner.RunTest"></class>
+  		<class name="com.bookerapi.services.BookingNegativeTest"></class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
