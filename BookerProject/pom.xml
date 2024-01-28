@@ -67,6 +67,9 @@
 						-Dcucumber.options="--plugin
 						io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"
 					</argLine>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>
 				<dependencies>
 				</dependencies>

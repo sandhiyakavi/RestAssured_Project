@@ -1,6 +1,6 @@
 package com.bookerapi.mockfile;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 
 import com.bookerapi.configuration.ConfigurationManager;
 import com.github.tomakehurst.wiremock.client.WireMock;
@@ -16,7 +16,7 @@ public class BookingMgmentStub {
 	/**
 	 * Creates the Stub for Create Booking.
 	 */
-	@Test
+	@BeforeMethod
 	public void createBooking() {
 		WireMock.stubFor(WireMock.post("/" + ConfigurationManager.configuration().getBookingPath())
 				.willReturn(WireMock.aResponse().withStatus(ConfigurationManager.configuration().getSuccessStatus())
@@ -32,7 +32,7 @@ public class BookingMgmentStub {
 	 * Creates Stub for getting Booking IDs
 	 *
 	 */
-	@Test
+	@BeforeMethod
 	public void getBookingIDs() {
 		WireMock.stubFor(WireMock.get("/booking?lastName=brown").willReturn(WireMock.aResponse()
 				.withStatus(ConfigurationManager.configuration().getSuccessStatus())
@@ -53,7 +53,7 @@ public class BookingMgmentStub {
 	 * Creates the Stub for getting Booking by ID
 	 *
 	 */
-	@Test
+	@BeforeMethod
 	public void getBookingById() {
 		WireMock.stubFor(WireMock.get("/booking/2243")
 				.willReturn(WireMock.aResponse().withStatus(ConfigurationManager.configuration().getSuccessStatus())

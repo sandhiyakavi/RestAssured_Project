@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-26T19:56:49 JST" name="Surefire suite" finished-at="2024-01-26T19:57:06 JST" duration-ms="16761">
+  <suite started-at="2024-01-28T22:55:51 JST" name="Rest-Assured TestNG Tests" finished-at="2024-01-28T22:56:07 JST" duration-ms="15926">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-26T19:56:49 JST" name="Surefire test" finished-at="2024-01-26T19:57:06 JST" duration-ms="16761">
+    <test started-at="2024-01-28T22:55:51 JST" name="Bookingmanagement" finished-at="2024-01-28T22:56:07 JST" duration-ms="15926">
+      <class name="com.bookerapi.mock.testcases.BookingManagement">
+        <test-method signature="createBooking()[pri:0, instance:com.bookerapi.mock.testcases.BookingManagement@6e0f5f7f]" started-at="2024-01-28T22:55:51 JST" name="createBooking" finished-at="2024-01-28T22:55:52 JST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="getBookingByID()[pri:0, instance:com.bookerapi.mock.testcases.BookingManagement@6e0f5f7f]" started-at="2024-01-28T22:55:52 JST" name="getBookingByID" finished-at="2024-01-28T22:55:52 JST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingByID -->
+        <test-method signature="getBookingIDs()[pri:0, instance:com.bookerapi.mock.testcases.BookingManagement@6e0f5f7f]" started-at="2024-01-28T22:55:52 JST" name="getBookingIDs" finished-at="2024-01-28T22:55:52 JST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIDs -->
+      </class> <!-- com.bookerapi.mock.testcases.BookingManagement -->
       <class name="com.bookerapi.runner.RunTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:50 JST" name="setUpClass" finished-at="2024-01-26T19:56:50 JST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:52 JST" name="setUpClass" finished-at="2024-01-28T22:55:52 JST" duration-ms="324" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6866e740]]>
+                <![CDATA[org.testng.TestRunner@35ff072c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:50 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:56:52 JST" duration-ms="2620" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:52 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:55:53 JST" duration-ms="1194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:52 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:56:54 JST" duration-ms="1933" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:53 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:55:55 JST" duration-ms="1803" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:54 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:56:56 JST" duration-ms="1078" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:55 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:55:56 JST" duration-ms="1056" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:56 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:56:57 JST" duration-ms="1015" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:56 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:55:57 JST" duration-ms="1024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:57 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:56:58 JST" duration-ms="1111" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:57 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:55:58 JST" duration-ms="1028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:58 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:56:59 JST" duration-ms="1325" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:58 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:55:59 JST" duration-ms="1120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:56:59 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-26T19:57:00 JST" duration-ms="1125" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:55:59 JST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-28T22:56:00 JST" duration-ms="1109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,37 +147,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookerapi.runner.RunTest@1eb5174b]" started-at="2024-01-26T19:57:00 JST" name="tearDownClass" finished-at="2024-01-26T19:57:03 JST" duration-ms="2821" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookerapi.runner.RunTest@47d9a273]" started-at="2024-01-28T22:56:00 JST" name="tearDownClass" finished-at="2024-01-28T22:56:03 JST" duration-ms="2807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.bookerapi.runner.RunTest -->
       <class name="com.bookerapi.services.BookingNegativeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@120f102b]" started-at="2024-01-26T19:57:03 JST" name="setup" finished-at="2024-01-26T19:57:03 JST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@4b8ee4de]" started-at="2024-01-28T22:56:03 JST" name="setup" finished-at="2024-01-28T22:56:03 JST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getBookingWithInvalidID()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@120f102b]" started-at="2024-01-26T19:57:03 JST" name="getBookingWithInvalidID" finished-at="2024-01-26T19:57:04 JST" duration-ms="1146" status="PASS">
+        <test-method signature="getBookingWithInvalidID()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@4b8ee4de]" started-at="2024-01-28T22:56:03 JST" name="getBookingWithInvalidID" finished-at="2024-01-28T22:56:04 JST" duration-ms="1043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingWithInvalidID -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@120f102b]" started-at="2024-01-26T19:57:04 JST" name="setup" finished-at="2024-01-26T19:57:04 JST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@4b8ee4de]" started-at="2024-01-28T22:56:04 JST" name="setup" finished-at="2024-01-28T22:56:04 JST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateBookingWithIncorrectBody()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@120f102b]" started-at="2024-01-26T19:57:04 JST" name="updateBookingWithIncorrectBody" finished-at="2024-01-26T19:57:05 JST" duration-ms="1091" status="PASS">
+        <test-method signature="updateBookingWithIncorrectBody()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@4b8ee4de]" started-at="2024-01-28T22:56:04 JST" name="updateBookingWithIncorrectBody" finished-at="2024-01-28T22:56:05 JST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBookingWithIncorrectBody -->
-        <test-method signature="updateBookingWithInvalidID()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@120f102b]" started-at="2024-01-26T19:57:05 JST" name="updateBookingWithInvalidID" finished-at="2024-01-26T19:57:06 JST" duration-ms="1030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateBookingWithInvalidID -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@120f102b]" started-at="2024-01-26T19:57:05 JST" name="setup" finished-at="2024-01-26T19:57:05 JST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@4b8ee4de]" started-at="2024-01-28T22:56:05 JST" name="setup" finished-at="2024-01-28T22:56:05 JST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+        <test-method signature="updateBookingWithInvalidID()[pri:0, instance:com.bookerapi.services.BookingNegativeTest@4b8ee4de]" started-at="2024-01-28T22:56:05 JST" name="updateBookingWithInvalidID" finished-at="2024-01-28T22:56:07 JST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingWithInvalidID -->
       </class> <!-- com.bookerapi.services.BookingNegativeTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Bookingmanagement -->
+  </suite> <!-- Rest-Assured TestNG Tests -->
 </testng-results>

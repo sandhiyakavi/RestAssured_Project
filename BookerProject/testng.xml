@@ -3,7 +3,6 @@
 <suite name="Rest-Assured TestNG Tests">
   <test thread-count="5" name="Bookingmanagement">
   	<classes>
-  		<class name="com.bookerapi.mockfile.BookingMgmentStub"></class>  	
   		<class name="com.bookerapi.mock.testcases.BookingManagement"></class>
   		<class name="com.bookerapi.runner.RunTest"></class>
   		<class name="com.bookerapi.services.BookingNegativeTest"></class>

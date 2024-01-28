@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.363" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.553" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -60,14 +60,17 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.6\lib\jansi-native"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="2.644"/>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.918"/>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.078"/>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.03"/>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.126"/>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.342"/>
-  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.116"/>
-  <testcase name="getBookingWithInvalidID" classname="com.bookerapi.services.BookingNegativeTest" time="1.149"/>
-  <testcase name="updateBookingWithIncorrectBody" classname="com.bookerapi.services.BookingNegativeTest" time="1.106"/>
-  <testcase name="updateBookingWithInvalidID" classname="com.bookerapi.services.BookingNegativeTest" time="1.03"/>
+  <testcase name="createBooking" classname="com.bookerapi.mock.testcases.BookingManagement" time="1.127"/>
+  <testcase name="getBookingByID" classname="com.bookerapi.mock.testcases.BookingManagement" time="0.024"/>
+  <testcase name="getBookingIDs" classname="com.bookerapi.mock.testcases.BookingManagement" time="0.022"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.197"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.804"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.057"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.025"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.031"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.122"/>
+  <testcase name="runScenario" classname="com.bookerapi.runner.RunTest" time="1.11"/>
+  <testcase name="getBookingWithInvalidID" classname="com.bookerapi.services.BookingNegativeTest" time="1.043"/>
+  <testcase name="updateBookingWithIncorrectBody" classname="com.bookerapi.services.BookingNegativeTest" time="1.057"/>
+  <testcase name="updateBookingWithInvalidID" classname="com.bookerapi.services.BookingNegativeTest" time="1.11"/>
 </testsuite>

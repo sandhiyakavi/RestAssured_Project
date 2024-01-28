@@ -1300,3 +1300,81 @@
 2024-01-26 19:56:20,050 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
 2024-01-26 19:56:20,051 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-01-26 19:56:20,052 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:10:34,607 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:10:34,609 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:10:34,610 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:10:34,611 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:11:19,401 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:11:19,402 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:11:19,404 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:11:19,415 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:11:28,758 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:11:28,758 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:11:28,759 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:11:28,760 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:11:59,827 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:11:59,827 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:11:59,828 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:11:59,829 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:13:03,000 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:03,001 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:13:03,002 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:03,003 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:13:04,050 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:04,051 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:13:04,052 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:04,053 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:13:31,263 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:31,265 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:13:31,265 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:31,266 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:13:32,293 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:32,294 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-26 21:13:32,295 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-26 21:13:32,296 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-26 21:13:43,810 [ModalContext] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: D:\TestLeaf_API\BookerAPIProject\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:128)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:996)
+	at org.eclipse.m2e.core.internal.MavenPluginActivator$1.saving(MavenPluginActivator.java:143)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2354)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2024-01-28 09:29:47,801 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-01-28 09:30:55,197 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-28 09:31:26,970 [Worker-17: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.herokuapp.booker:BookerProject:0.0.1-SNAPSHOT @ D:\TestLeaf_API\BookerAPIProject\BookerProject\pom.xml.
+2024-01-28 09:31:27,415 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.herokuapp.booker:BookerProject:0.0.1-SNAPSHOT @ D:\TestLeaf_API\BookerAPIProject\BookerProject\pom.xml.
+2024-01-28 09:31:27,760 [Worker-17: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.github.tomakehurst:wiremock:jar:3.0.1 has been relocated to org.wiremock:wiremock:jar:3.0.1
+2024-01-28 09:31:27,835 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.github.tomakehurst:wiremock:jar:3.0.1 has been relocated to org.wiremock:wiremock:jar:3.0.1
+2024-01-28 09:31:28,437 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:31:28,438 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-28 09:31:28,440 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:31:28,444 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-28 09:31:30,022 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.herokuapp.booker:BookerProject:0.0.1-SNAPSHOT @ D:\TestLeaf_API\BookerAPIProject\BookerProject\pom.xml.
+2024-01-28 09:31:30,225 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.github.tomakehurst:wiremock:jar:3.0.1 has been relocated to org.wiremock:wiremock:jar:3.0.1
+2024-01-28 09:31:30,242 [Worker-0: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.github.tomakehurst:wiremock:jar:3.0.1 has been relocated to org.wiremock:wiremock:jar:3.0.1
+2024-01-28 09:31:30,336 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:31:30,337 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-28 09:31:30,339 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:31:30,342 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-01-28 09:31:31,707 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.github.tomakehurst:wiremock:jar:3.0.1 has been relocated to org.wiremock:wiremock:jar:3.0.1
+2024-01-28 09:31:31,725 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:31:31,726 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-28 09:31:31,727 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:31:31,728 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-01-28 09:31:51,415 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-28 09:32:08,717 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-28 09:33:23,458 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.github.tomakehurst:wiremock:jar:3.0.1 has been relocated to org.wiremock:wiremock:jar:3.0.1
+2024-01-28 09:33:23,660 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:33:23,660 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\TestLeaf_API\BookerAPIProject\BookerProject\src\main\resources
+2024-01-28 09:33:23,662 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-01-28 09:33:23,666 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
