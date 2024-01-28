@@ -26,8 +26,10 @@ public class BookingNegativeTest extends BaseRequest {
 	 */
 	@Test
 	public void getBookingWithInvalidID() {
-			RestAssured.given().get(ConfigurationManager.configuration().getBookingPath()+"/" + ConfigurationManager.configuration().getInvalidBookingID()).then().assertThat()
-			.statusCode(ConfigurationManager.configuration().getNotFoundStatus());
+		RestAssured.given()
+		.get(ConfigurationManager.configuration().getBookingPath() + "/"
+				+ ConfigurationManager.configuration().getInvalidBookingID())
+		.then().assertThat().statusCode(ConfigurationManager.configuration().getNotFoundStatus());
 	}
 
 	/**
@@ -35,10 +37,13 @@ public class BookingNegativeTest extends BaseRequest {
 	 */
 	@Test
 	public void updateBookingWithIncorrectBody() {
-			RestAssured.given().header("Authorization", ConfigurationManager.configuration().getAuthValue())
-			.header("Cookie", ConfigurationManager.configuration().getCookieValue()).contentType("application/json").when()
-			.body(new File(ConfigurationManager.configuration().getResourcePath()+"PutBookingIncorrectReq.json"))
-			.put(ConfigurationManager.configuration().getBookingPath()+"/" + ConfigurationManager.configuration().getValidBookingID()).then().assertThat().statusCode(ConfigurationManager.configuration().getBadReqStatus());
+		RestAssured.given().header("Authorization", ConfigurationManager.configuration().getAuthValue())
+		.header("Cookie", ConfigurationManager.configuration().getCookieValue()).contentType("application/json")
+		.when()
+		.body(new File(ConfigurationManager.configuration().getResourcePath() + "PutBookingIncorrectReq.json"))
+		.put(ConfigurationManager.configuration().getBookingPath() + "/"
+				+ ConfigurationManager.configuration().getValidBookingID())
+		.then().assertThat().statusCode(ConfigurationManager.configuration().getBadReqStatus());
 
 	}
 
@@ -47,10 +52,12 @@ public class BookingNegativeTest extends BaseRequest {
 	 */
 	@Test
 	public void updateBookingWithInvalidID() {
-			RestAssured.given().header("Authorization", ConfigurationManager.configuration().getAuthValue())
-			.header("Cookie", ConfigurationManager.configuration().getCookieValue()).contentType("application/json").when()
-			.body(new File(ConfigurationManager.configuration().getResourcePath()+"UpdateBooking.json"))
-			.put(ConfigurationManager.configuration().getBookingPath()+"/" + ConfigurationManager.configuration().getInvalidBookingID()).then().assertThat().statusCode(ConfigurationManager.configuration().getMethNotAllowedStatus());
+		RestAssured.given().header("Authorization", ConfigurationManager.configuration().getAuthValue())
+		.header("Cookie", ConfigurationManager.configuration().getCookieValue()).contentType("application/json")
+		.when().body(new File(ConfigurationManager.configuration().getResourcePath() + "UpdateBooking.json"))
+		.put(ConfigurationManager.configuration().getBookingPath() + "/"
+				+ ConfigurationManager.configuration().getInvalidBookingID())
+		.then().assertThat().statusCode(ConfigurationManager.configuration().getMethNotAllowedStatus());
 	}
 
 }

@@ -19,7 +19,7 @@ import io.restassured.specification.RequestSpecification;
 /**
  * The Class BookingMgment.
  * 
- *  @author Sandhiya
+ * @author Sandhiya
  */
 public class BookingMgment extends Common {
 
@@ -28,7 +28,8 @@ public class BookingMgment extends Common {
 	 */
 	@When("get bookingapi health")
 	public void healthCheck() {
-		response = RestAssured.given().contentType(ContentType.JSON).when().get(ConfigurationManager.configuration().getHealthCheckPath());
+		response = RestAssured.given().contentType(ContentType.JSON).when()
+				.get(ConfigurationManager.configuration().getHealthCheckPath());
 		response.then().assertThat().statusCode(201);
 	}
 
@@ -51,7 +52,7 @@ public class BookingMgment extends Common {
 	public void createBookingWithStringBody(String body) {
 		input = RestAssured.given().contentType(ContentType.JSON).when().body(body);
 		response = input.post(ConfigurationManager.configuration().getBookingPath());
-		//response.prettyPrint();
+		// response.prettyPrint();
 		bookingID = response.jsonPath().get("bookingid");
 	}
 
@@ -65,7 +66,7 @@ public class BookingMgment extends Common {
 		File file = new File(ConfigurationManager.configuration().getResourcePath() + fileName);
 		input = RestAssured.given().contentType(ContentType.JSON).when().body(file);
 		response = input.post(ConfigurationManager.configuration().getBookingPath());
-		//response.prettyPrint();
+		// response.prettyPrint();
 	}
 
 	/**
@@ -78,8 +79,8 @@ public class BookingMgment extends Common {
 		File file = new File(ConfigurationManager.configuration().getResourcePath() + fileName);
 		input = RestAssured.given().header("Authorization", ConfigurationManager.configuration().getAuthValue())
 				.header("Cookie", "token=abc123").contentType(ContentType.JSON).body(file);
-		response = input.put(ConfigurationManager.configuration().getBookingPath()+"/" + bookingID);
-		//response.prettyPrint();
+		response = input.put(ConfigurationManager.configuration().getBookingPath() + "/" + bookingID);
+		// response.prettyPrint();
 	}
 
 	/**
@@ -99,8 +100,8 @@ public class BookingMgment extends Common {
 	 */
 	@When("get Booking detail by ID")
 	public void getBookingByID() {
-		response = RestAssured.get(ConfigurationManager.configuration().getBookingPath()+"/" + bookingID);
-		//response.prettyPrint();
+		response = RestAssured.get(ConfigurationManager.configuration().getBookingPath() + "/" + bookingID);
+		// response.prettyPrint();
 	}
 
 	/**
